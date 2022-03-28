@@ -51,29 +51,3 @@ _content | split: "<pre" %}{% assign _content="" %}{% for _pre_before in _pre_be
                     <td>clippings
                     <td>{{ _profile_clippings }}{% endif %}
         </table>{% endif %}{% endif %}
-
-        <script>
-
-            var link = document.location.href.split("/");
-            var link = link[3];
-            var cookies = document.cookie.split("; ");
-            var isCookie = cookies.includes("mycookie");
-
-            // try {
-            //     window.opener.close();
-            //     console.log("초기창 끄기");
-            // } catch (e) {
-
-            // }
-
-            if (link == "" && !isCookie) { // 로그인창 + 쿠키없음
-            } else if (link == "" && isCookie) { // 로그인창 + 쿠키있음
-                window.location.replace("https://sooyeonyeom.github.io/home");
-            } else if (link !== "" && !isCookie) { // 일반창 + 쿠키없음
-                window.location.replace("https://sooyeonyeom.github.io/");
-            } else { // 일반창 + 쿠키있음
-            }
-
-
-
-        </script>

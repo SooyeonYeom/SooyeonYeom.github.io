@@ -45,13 +45,6 @@ layout: login
                     <a>Forgot SECRET CODE?</a>
                 </div>
             </div>
-
-
-
-
-
-
-
         </div>
     </section>
 
@@ -146,25 +139,10 @@ layout: login
 
     function check(form) {
 
-        // window.open(location, "_self");
-        // console.log("자기자신 다시 열기");
-
         if (form.pw.value == "011117") {
-
-            if (!document.cookie.split("; ").includes("mycookie")) {
-                var date = new Date();
-                date.setTime(date.getTime() + (60 * 60 * 1000));
-                var expires = "; expires=" + date.toGMTString();
-
-                document.cookie = name + "=mycookie" + expires + "; path=/";
-            }
-
-            // window.open("https://sooyeonyeom.github.io/home");
-            window.location.href = "https://sooyeonyeom.github.io/home";
-            console.log("로그인 성공! 홈으로 이동");
+            window.open("home");
         }
         else { alert("❌ WRONG! Please try again! ❌") }
-
     }
 
 </script>
