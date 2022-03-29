@@ -6,7 +6,7 @@ tags:
 show_hero: true
 menu:
   - title: Main page
-    url: /
+    url: /home
   - title: About Me
     url: /about
   - title: Way to Contact
