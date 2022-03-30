@@ -8,7 +8,7 @@ optimized_image: https://media.vlpt.us/images/leehaeun0/post/ef5f775f-53f5-4b49-
 category: Dev
 tags:
   - Front-end
-  - JavsScript
+  - JavaScript
 author: Freeyeon
 ---
 
@@ -365,7 +365,7 @@ https://www.youtube.com/watch?v=vrhIxBWSJ04 </a>
 <a href="https://www.youtube.com/watch?v=dHrI-_xq1Vo">객체지향 Class 문법 
 https://www.youtube.com/watch?v=dHrI-_xq1Vo </a>
 
-<a href="https://www.youtube.com/watch?v=wUgmzvExL_E">Prototype
+<a href="https://www.youtube.com/watch?v=wUgmzvExL_E">Prototype에 대하여
 https://www.youtube.com/watch?v=wUgmzvExL_E</a>
 
 
