@@ -1,7 +1,7 @@
 ---
 layout: post
-title: JavaScript Class 문법
-subtitle: 기초개념 + 응용 및 심화 간단 정리
+title: JavaScript Class 
+subtitle: 기초개념 및 응용
 description: 
 image: https://media.vlpt.us/images/leehaeun0/post/ef5f775f-53f5-4b49-8ccc-ff442d70b295/javascript-featured.png
 optimized_image: https://media.vlpt.us/images/leehaeun0/post/ef5f775f-53f5-4b49-8ccc-ff442d70b295/javascript-featured.png
@@ -13,7 +13,7 @@ author: Freeyeon
 ---
 
 
-JavaScript의 **Class**에 대한 개념을 정리하지 않으면, 컴포넌트 단위로 돌아가는 React를 잘 이해하기 어렵다. 그렇다고 초보자 수준에서 너무 머리 아플 정도로 애쓰지 않아도 된다! 나이브하게 이해해보자.<br>
+JavaScript의 **Class**에 대한 개념을 정리하지 않으면, 컴포넌트 단위로 돌아가는 React를 잘 이해하기 어렵다. 그렇다고 너무 머리 아플 정도로 애쓰지 않아도 된다! 나이브하게 이해해보자.<br>
 
 ***
 # Class 기초개념
@@ -352,7 +352,7 @@ console.log(Sooyeon.intro())
 
 🔖 Postscript
 
-이해하기 위해 대부분의 뜻을 내 언어로 바꾸다보니, 엄밀하지 않은 부분이 있을 것 같다. 그러나 초보자 수준에서 애써서 정리했다는 것에 의의를 두며... 첫 포스팅을 마친다! :)
+이해하기 위해 대부분의 뜻을 내 언어로 바꾸다보니, 엄밀하지 않은 부분이 있을 것 같다. 그러나 코린이 수준에서 애써서 정리했다는 것에 의의를 두며, 첫 포스팅을 마친다! :)
 <br>
 
 --
@@ -364,9 +364,6 @@ https://www.youtube.com/watch?v=vrhIxBWSJ04 </a>
 
 <a href="https://www.youtube.com/watch?v=dHrI-_xq1Vo">객체지향 Class 문법 
 https://www.youtube.com/watch?v=dHrI-_xq1Vo </a>
-
-<a href="https://www.youtube.com/watch?v=wUgmzvExL_E">Prototype에 대하여
-https://www.youtube.com/watch?v=wUgmzvExL_E</a>
 
 
 ***
