@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Markdown 문법
-subtitle: feat. 마크다운으로 깃허브 README 꾸미기
+subtitle: 초간단 정리
 description: 
 image: https://user-images.githubusercontent.com/98953394/161272532-e79a65eb-ea6e-43e7-8df5-4a1384ef461f.png
 optimized_image: https://user-images.githubusercontent.com/98953394/161272532-e79a65eb-ea6e-43e7-8df5-4a1384ef461f.png
@@ -9,6 +9,7 @@ category: Dev
 tags:
   - Markdown
   - Github
+  - Memo
 author: Freeyeon
 ---
 

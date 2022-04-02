@@ -1,7 +1,7 @@
 ---
 layout: post
-title: React HOOK
-subtitle: Hook sth into 함수형 컴포넌트 
+title: Nomad | ReactJS 초급 
+subtitle: ReactJS로 영화 웹 서비스 만들기
 description: 
 image: https://user-images.githubusercontent.com/98953394/160705078-f426d9cd-e464-418a-bb11-e94761a38086.png
 optimized_image: https://user-images.githubusercontent.com/98953394/160705078-f426d9cd-e464-418a-bb11-e94761a38086.png
@@ -9,6 +9,7 @@ category: Dev
 tags:
   - Front-end
   - React
+  - Nomad
 author: Freeyeon
 ---
 
