@@ -89,7 +89,7 @@ const sooyeon = new Sooyeon();
 
 🔖 Postscript
 
-흐린 눈 했던 Arrow function에 대해 간단히 정리해보았다. 앞으로 잘 모르는 문법을 흐린 눈하면서 넘기는 일을 줄이고자, 짧게 짧게 정리하는 습관을 들여야겠다!
+흐린 눈 했던 arrow function에 대해 간단히 정리해보았다. 
 <br>
 
 --

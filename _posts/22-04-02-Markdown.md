@@ -109,6 +109,21 @@ inline 코드블럭은 `가 앞뒤로 하나씩 붙는다.
 
 전자처럼 쉽게 링크를 걸 수 있다. 아래 HTML보다 훨씬 간편하다.
 
+### ▶ 표
+
+```markdown
+#1 INTRODUCTION | ReactJS 및 수업 소개
+**#2 THE BASICS OF REACT** | **ReactJS의 기본과 효용**
+#3 STATE | 데이터 업데이트 방식
+#4 PROPS | 데이터 전달 방식
+#5 CREATE REACT APP | ReactJS로 앱만들기
+#6 EFFECTS | ReactJS의 효과
+#7 PRACTICE MOVIE APP | ReactJS로 영화 웹서비스 만들기
+```
+
+**|**를 이용해 표를 만들 수 있다. 
+
+
 
 <br>
 <br>
@@ -119,7 +134,7 @@ inline 코드블럭은 `가 앞뒤로 하나씩 붙는다.
 
 🔖 Postscript
 
-마크다운 문법에 대해 간략하게 정리해보았다!
+마크다운 문법에 대해 간략하게 정리해보았다.
 
 
 --
