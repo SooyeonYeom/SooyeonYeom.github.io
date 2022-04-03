@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nomad Coders | ReactJS 초급 -1
+title: Nomad | ReactJS 초급 -1
 subtitle: "THE BASICS OF REACT : ReactJS의 기본과 효용"
 description: 
 image: https://user-images.githubusercontent.com/98953394/160705078-f426d9cd-e464-418a-bb11-e94761a38086.png
@@ -9,11 +9,9 @@ category: Dev
 tags:
   - Front-end
   - React
-  - Nomad Coders
+  - Nomad 
 author: Freeyeon
 ---
-
-Nomad Coders | ReactJS 초급 [ReactJS로 영화 웹서비스 만들기] 
 
 
 #1 INTRODUCTION | ReactJS 및 수업 소개
@@ -143,7 +141,7 @@ THE BASICS OF REACT의 강의 내용 필기이다.
 
 
 
-🐳 Next Post >> <a href="/Nomad_React2">[ Nomad Coders | ReactJS 초급 -2 ]</a>
+🐳 Next Post >> <a href="/Nomad_React2">[ Nomad | ReactJS 초급 -2 ]</a>
 
 <br>
 <br>

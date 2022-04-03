@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nomad Coders | ReactJS 초급 -2
+title: Nomad | ReactJS 초급 -2
 subtitle: "STATE : 데이터 업데이트 방식"
 description: 
 image: https://user-images.githubusercontent.com/98953394/160705078-f426d9cd-e464-418a-bb11-e94761a38086.png
@@ -9,11 +9,9 @@ category: Dev
 tags:
   - Front-end
   - React
-  - Nomad Coders
+  - Nomad
 author: Freeyeon
 ---
-
-Nomad Coders | ReactJS 초급 [ReactJS로 영화 웹서비스 만들기] 
 
 
 #1 INTRODUCTION | ReactJS 및 수업 소개

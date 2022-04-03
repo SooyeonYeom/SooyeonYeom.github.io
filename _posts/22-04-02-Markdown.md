@@ -113,7 +113,7 @@ inline 코드블럭은 `가 앞뒤로 하나씩 붙는다.
 
 ```markdown
 #1 INTRODUCTION | ReactJS 및 수업 소개
-**#2 THE BASICS OF REACT** | **ReactJS의 기본과 효용**
+#2 THE BASICS OF REACT | ReactJS의 기본과 효용
 #3 STATE | 데이터 업데이트 방식
 #4 PROPS | 데이터 전달 방식
 #5 CREATE REACT APP | ReactJS로 앱만들기
