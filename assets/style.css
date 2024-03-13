@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+
 * {
 	margin:  0px;
 	padding:  0px;
@@ -7,7 +9,7 @@
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	transition: background 500ms ease;
 }
 
@@ -23,7 +25,8 @@ p, li {
 }
 
 h1, p {
-	margin-bottom:  20px;
+	margin-top: 10px;
+	margin-bottom:  10px;
 }
 
 ul, ol {
@@ -35,9 +38,9 @@ img {
 	height:  auto;
 }
 
-/* uncomment the code below to set the grid */
+uncomment the code below to set the grid */
 
-/*#grid {
+#grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -57,4 +60,4 @@ body {
 
 #right-column {
 	background: #333;
-}*/
+}
