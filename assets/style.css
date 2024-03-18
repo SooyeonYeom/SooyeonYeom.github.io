@@ -11,6 +11,7 @@
 body {
 	font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	transition: background 500ms ease;
+	background: linear-gradient(180deg, rgb(254.29, 255, 219.53) 0%, rgb(255, 220.7, 189.03) 100%);
 }
 
 p, li {
