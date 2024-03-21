@@ -7,8 +7,10 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+      <body style={{margin:0}}>
+        <StyledComponentsRegistry>
+         {children}
+        </StyledComponentsRegistry>
       </body>
     </html>
   )

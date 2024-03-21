@@ -10,6 +10,12 @@ import Header from './components/Header';
 import Spacing from './components/Spacing';
 import Card from './components/Card';
 import Link from 'next/link';
+import styled from 'styled-components';
+
+const StyledLink = styled.a`
+  text-decoration: none; /* 링크에 대한 텍스트 장식을 없앱니다. */
+`;
+
 
 const MyPage: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -38,12 +44,12 @@ const MyPage: React.FC = () => {
           <AnimatedText size="300" weight="regular" color={colors.Grey600} textAlign="center" animate={animateText}>I usually design and sometimes develop.</AnimatedText>
           <Spacing height="24px" />
           <Stack direction="vertical" gutter={8} alignItems="center" justifyContent='center'>
-          <Link href="/asciitown" passHref> 
-           <Card imageUrl="/town.png" text="ASCII TOWN" />
-          </Link>
-          <Link href="https://sooyeonyeom.oopy.io/" passHref>
-           <Card imageUrl="/love.png" text="WHO AM I" />
-           </Link>
+          <StyledLink href="/asciitown">
+            <Card imageUrl="/town.png" text="ASCII TOWN" />
+          </StyledLink>
+          <StyledLink href="https://sooyeonyeom.oopy.io/">
+            <Card imageUrl="/love.png" text="WHO AM I" />
+          </StyledLink>
           </Stack>
      
         </Stack>
