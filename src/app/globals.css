@@ -47,4 +47,15 @@
      border-collapse: collapse;
      border-spacing: 0;
  }
- 
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  all: unset;
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: inherit; /* 링크의 색상을 부모 요소의 색상으로 상속 */
+  cursor: pointer; /* 커서 모양을 포인터로 변경 */
+  /* 그 외에 필요한 스타일을 여기에 추가할 수 있습니다. */
+}

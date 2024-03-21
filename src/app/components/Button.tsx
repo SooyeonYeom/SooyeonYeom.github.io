@@ -38,12 +38,16 @@ const StyledButton = styled.button<ButtonProps>`
   font-size: 14px;
   padding: 10px 16px;
   color: white;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.3s ease; // 배경색 변경에 대한 트랜지션 설정
   ${({ fullWidth }) => fullWidth && css`width: 100%;`}
   ${({ fullWidth }) => !fullWidth && css`width: fit-content;`}
   &:hover {
     background-color: ${colors.Blue700};
+  }
+  &:active {
+    background-color: ${colors.Blue800};
   }
   ${({ buttonSize }) => getSizeStyles(buttonSize || 'medium')} // 버튼 크기에 따른 스타일 적용
 `;
