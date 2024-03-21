@@ -42,7 +42,7 @@ const MyPage: React.FC = () => {
           <Spacing height="16px" />
           <AnimatedText size="300" weight="regular" color={colors.Grey600} textAlign="center" animate={animateText}>I'm majoring in visual design at SNU.</AnimatedText>
           <AnimatedText size="300" weight="regular" color={colors.Grey600} textAlign="center" animate={animateText}>I usually design and sometimes develop.</AnimatedText>
-          <Spacing height="24px" />
+          <Spacing height="16px" />
           <Stack direction="vertical" gutter={8} alignItems="center" justifyContent='center'>
           <StyledLink href="/asciitown">
             <Card imageUrl="/town.png" text="ASCII TOWN" />

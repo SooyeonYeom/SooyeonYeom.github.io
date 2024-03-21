@@ -12,8 +12,6 @@ import ASCIICard from '../components/ASCIICard';
 
 
 const ASCIITOWNPage: React.FC = () => {
-  const [animateText, setAnimateText] = useState(false); // animateText state 추가
-
 
   const interiorAsciiArt = `
   ________________________
@@ -23,14 +21,15 @@ const ASCIITOWNPage: React.FC = () => {
 
   
 
+
                     ____
-                  /    \\
+                   /    \\
                   /______\\
-                    ||
+                     ||
       /~~~~~~~~\\     ||   
-    /~ () ()  ~\\    ||  
+     /~ () ()  ~\\    ||  
     (_)========(_)   ||  
-  ___I|_________|I  _||_  
+  ___I|_________|I___||_____  
   /////////////////////////
 `;
 
@@ -58,19 +57,29 @@ const exteriorAsciiArt = `
 
 
   return (
-    <>
+    <div style={{ height : '100vh', background: 'linear-gradient(180deg, #FFFFFF 0%, #B7D3FF 100%)'}}>
        <Header
         leftButtonText="PREV"
         leftButtonDestination="/"
         leftButtonSize="small"
       />
-      <div style={{ margin: '72px 24px 0 24px' }}>
+      <div style={{ padding: '72px 12% 0 12%' }}>
+      <Stack direction='vertical' gutter={8}>
+      <Text size="500" weight="semibold" color={colors.Grey800} textAlign="left">
+      Welcome to MY ASCII TOWN
+      </Text>  
+      <Text size="300" weight="regular" color={colors.Grey600} textAlign="left">
+      I currently live in an officetel near Seoul National University Station. I recently moved to a larger officetel, and it has become so pleasant. I think I will live for another two years. 
+      <br/><br/>
+      A good house for me is a "simple" space, because I think a place that will keep my lifestyle simple is a good house.</Text>   
+      <Spacing height='16px'/>
+      </Stack>
       <ASCIICard
           interiorAsciiArt={interiorAsciiArt}
           exteriorAsciiArt={exteriorAsciiArt}
-        />
+        />  
       </div>
-    </>
+    </div>
   );
 };
 

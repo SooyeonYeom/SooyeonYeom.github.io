@@ -27,9 +27,9 @@ const ASCIICard: React.FC<ASCIICardProps> = ({ interiorAsciiArt, exteriorAsciiAr
         position: 'relative', // 부모 요소를 기준으로 자식 요소를 배치할 수 있도록 position 속성 추가
         padding: '16px',
         borderRadius: '16px',
-        backgroundColor: colors.Grey800,
+        backgroundColor: 'rgba(45, 53, 65, 0.85)',
         color: '#ffffff',
-        height: '280px',
+        height: '300px',
         overflow: 'auto', // ASCII art이 넘칠 경우 스크롤 표시
         opacity: show ? 1 : 0, // show 상태에 따라 투명도 설정
         transition: 'opacity 1s ease',// 투명도 트랜지션 설정
@@ -37,9 +37,10 @@ const ASCIICard: React.FC<ASCIICardProps> = ({ interiorAsciiArt, exteriorAsciiAr
         transitionProperty: 'opacity, transform', // 트랜지션 속성 설정
         transitionDuration: '1s', // 트랜지션 지속 시간 설정
         transitionTimingFunction: 'ease', // 트랜지션 타이밍 함수 설정
+        backdropFilter: 'blur(8px)', // backdrop-filter 속성 추가
       }}
     >
-      <pre style={{ fontFamily: 'monospace', whiteSpace: 'pre-wrap' }}>
+      <pre style={{ fontFamily: 'monospace', whiteSpace: 'pre-wrap', margin : 0 }}>
       {isInterior ? interiorAsciiArt : exteriorAsciiArt}</pre> {/* interior와 exterior에 따라 다른 ASCII art를 렌더링 */}
       <div
         style={{
